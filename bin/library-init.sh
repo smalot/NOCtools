@@ -83,7 +83,7 @@ fi
 if [[ -e $LIBDIR/OSS-Framework.git ]]; then
     echo OSS-Framework.git exists - skipping!
 else  
-    git clone git://github.com/opensolutions/OSS-Framework.git $LIBDIR/OSS-Framework.git
+    git clone git://github.com/smalot/OSS-Framework.git $LIBDIR/OSS-Framework.git
 fi
     
 # Twitter form decorators
